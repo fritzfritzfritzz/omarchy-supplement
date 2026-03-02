@@ -11,6 +11,7 @@
 ./install-stow.sh
 ./install-dotfiles.sh
 ./install-pnpm.sh
+./install-figlet.sh
 # ./install-hyprland-overrides.sh
 
 # ./set-shell.sh
