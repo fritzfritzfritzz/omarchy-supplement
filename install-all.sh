@@ -12,6 +12,8 @@
 ./install-dotfiles.sh
 ./install-pnpm.sh
 ./install-figlet.sh
+./install-pandoc.sh
+./install-texlive.sh
 # ./install-hyprland-overrides.sh
 
 # ./set-shell.sh
