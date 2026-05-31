@@ -15,6 +15,6 @@
 ./install-pandoc.sh
 ./install-texlive.sh
 ./install-speech-to-text.sh
-# ./install-hyprland-overrides.sh
+./install-hyprland-overrides.sh
 
 # ./set-shell.sh
