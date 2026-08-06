@@ -25,10 +25,11 @@ fi
 # Check if the clone was successful
 if [ $? -eq 0 ]; then
   echo "removing old configs"
-  rm -rf ~/.config/nvim ~/.local/share/nvim/ ~/.cache/nvim/ ~/.config/ghostty/config # ~/.config/starship.toml
+  rm -rf ~/.config/nvim ~/.local/share/nvim/ ~/.cache/nvim/ ~/.config/ghostty/config ~/.bashrc # ~/.config/starship.toml
 
   cd "$REPO_NAME"
   # stow zshrc
+  stow bash
   stow ghostty
   # stow tmux
   stow nvim
