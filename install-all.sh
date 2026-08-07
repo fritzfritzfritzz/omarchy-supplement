@@ -11,10 +11,13 @@
 ./install-stow.sh
 ./install-dotfiles.sh
 ./install-pnpm.sh
+./install-hunkdiff.sh
+./install-herdr.sh
 ./install-figlet.sh
 ./install-pandoc.sh
 ./install-texlive.sh
 ./install-speech-to-text.sh
+./install-tailscale.sh
 ./install-hyprland-overrides.sh
 
 # ./set-shell.sh
