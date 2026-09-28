@@ -34,6 +34,9 @@ append_once() {
 # Super+B: default browser, same as Omarchy's Super+Shift+B (unbound by default)
 append_once ~/.config/hypr/bindings.lua 'o.bind("SUPER + B", "Browser", { omarchy = "browser" })'
 
+# herdr prefix back to Ctrl+B (Omarchy's config uses Ctrl+Space to match its tmux)
+sed -i 's/^prefix = "ctrl+space"$/prefix = "ctrl+b"/' ~/.config/herdr/config.toml
+
 # Dotfiles only hold personal additions; Omarchy keeps owning the base files,
 # which get one line appended to pull the additions in.
 omarchy pkg add stow
