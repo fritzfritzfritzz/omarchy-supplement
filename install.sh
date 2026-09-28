@@ -10,6 +10,7 @@ omarchy install ai chatgpt          # Codex desktop (openai-codex-desktop)
 omarchy install dev-env bun
 omarchy install dev-env rust
 omarchy install service tailscale   # interactive: opens a browser login
+omarchy pkg add zsa-udev            # ZSA Voyager access for Oryx flashing/live training
 
 # herdr: report agent state (idle/working/blocked) to the sidebar and teach
 # each agent it can drive herdr. claude, codex and pi are Omarchy's mise
