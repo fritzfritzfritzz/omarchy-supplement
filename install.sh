@@ -41,7 +41,7 @@ omarchy pkg add stow
 if [[ ! -d ~/dotfiles ]]; then
   git clone git@github.com:fritzfritzfritzz/dotfiles.git ~/dotfiles
 fi
-stow --no-folding -d ~/dotfiles -t ~ bash ghostty nvim
+stow --no-folding -d ~/dotfiles -t ~ bash ghostty
 
 append_once ~/.bashrc 'source ~/.config/bash/personal.sh'
 append_once ~/.config/ghostty/config 'config-file = ?personal.conf'
