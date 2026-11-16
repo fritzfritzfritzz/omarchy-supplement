@@ -9,6 +9,7 @@ omarchy install terminal ghostty
 omarchy install ai chatgpt          # Codex desktop (openai-codex-desktop)
 omarchy install dev-env bun
 omarchy install dev-env rust
+"$HOME/.cargo/bin/rustup" component add rust-analyzer
 omarchy install service tailscale   # interactive: opens a browser login
 omarchy pkg add zsa-udev            # ZSA Voyager access for Oryx flashing/live training
 
